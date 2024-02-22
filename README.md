@@ -3,10 +3,9 @@ Code used to make vizualisations in "Ideal adaptive control in biological system
 
 ## Implementation Details
 
-- **Programming Language:** All simulations are implemented in MATLAB 2023a.
-- **Code Location:** The code can be found in the directory `./Code_an_analysis_of_P_invariance_and_dynamical_compensation_properties`.
+- All simulations are implemented in MATLAB 2023a.
+- To generate the results of the numerical simulation, please run:
 
-## Simulation Files
-
-- **Figure 2 Simulation:** Utilizes `DC_phase_portrait.m` for generating the phase portrait.
-- **Figures 3 to 5 Results:** Derived from running `DC_impulse_response.m`.
+    - `DC_phase_portrait.m`: Generates the phase portrait of the system (Figure 2).
+    - `DC_impulse_response.m`: Generates the step-like input response (Figures 3 to 5).
+    

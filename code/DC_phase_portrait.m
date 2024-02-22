@@ -1,10 +1,11 @@
-%% Rain200519_Phase_portrait_COVID-19_test_model - Article_Ashyani2019_Dynamical_compensation
-% System:
+% The model is a system of two differential equations:
 %     dy/dt = by(t)+d(t)+sz(t)(lr(t)-y(t))
 %     dz/dt = -cz(t)(r(t)-y(t))
+
 clear all, clc, close all
+
 % Initial setting
-tf = 100;
+tf = 100; % Final time
 tps = 0; % Pulse start time
 dt = 0.01; %Sampling time
 tpi = 0; % Pulse interval
